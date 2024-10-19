@@ -52,15 +52,26 @@ php
 Copy code
 mcq-game/
 │
+
 ├── public/
+
 ├── src/
+
 │   ├── components/
-│   │   └── Question.js          # Component for displaying individual questions
-│   ├── App.js                   # Main application component
-│   ├── App.css                  # Styles for the app
-│   └── index.js                 # React entry point
-├── package.json                 # Project metadata and dependencies
-└── README.md                    # This file
+
+│   │   └── Question.js 
+
+│   ├── App.js    
+
+│   ├── App.css    
+
+│   └── index.js    
+
+├── package.json  
+
+└── README.md    
+
+
 Features Overview
 Flagging: Users can flag any question that they want to review later.
 Timer: The timer for each question ensures that the user answers within 30 seconds. If not, the answer will be marked as incorrect automatically.
